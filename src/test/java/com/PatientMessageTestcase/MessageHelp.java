@@ -16,7 +16,7 @@ public class MessageHelp extends patientLogin{
 
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		message patient = PageFactory.initElements(driver,message.class);
-		Thread.sleep(3000); //Test Commente
+		Thread.sleep(3000); //Test Comment
 		patient.msg(); 
 		Thread.sleep(3000);
 		patient.help();
