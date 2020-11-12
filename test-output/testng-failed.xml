@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.PatientMessageTestcase.ViewInboxMessage">
+      <class name="com.PatientRateusTestcases.RateUsTestcase">
         <methods>
+          <include name="listEhr"/>
           <include name="login1"/>
-          <include name="messages"/>
           <include name="Aftersuite"/>
         </methods>
-      </class> <!-- com.PatientMessageTestcase.ViewInboxMessage -->
+      </class> <!-- com.PatientRateusTestcases.RateUsTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

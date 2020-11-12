@@ -60,7 +60,7 @@ public class patientLogin {
 	@AfterSuite 
 	public void Aftersuite() {
 		
-		//driver.close();
+		driver.close();
 	}
 }
 

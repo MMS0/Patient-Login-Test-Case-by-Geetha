@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12557" started-at="2020-11-09T13:55:42Z" finished-at="2020-11-09T13:55:55Z">
+  <suite name="Default suite" duration-ms="16747" started-at="2020-11-12T11:24:31Z" finished-at="2020-11-12T11:24:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12557" started-at="2020-11-09T13:55:42Z" finished-at="2020-11-09T13:55:55Z">
-      <class name="com.PatientMessageTestcase.MessageHelp">
-        <test-method status="PASS" signature="login1()[pri:0, instance:com.PatientMessageTestcase.MessageHelp@2a5ca609]" name="login1" is-config="true" duration-ms="16369" started-at="2020-11-09T19:25:26Z" finished-at="2020-11-09T19:25:42Z">
+    <test name="Default test" duration-ms="16747" started-at="2020-11-12T11:24:31Z" finished-at="2020-11-12T11:24:48Z">
+      <class name="com.PatientRateusTestcases.RateUsTestcase5">
+        <test-method status="PASS" signature="login1()[pri:0, instance:com.PatientRateusTestcases.RateUsTestcase5@2a5ca609]" name="login1" is-config="true" duration-ms="19960" started-at="2020-11-12T16:54:11Z" finished-at="2020-11-12T16:54:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login1 -->
-        <test-method status="PASS" signature="messages()[pri:0, instance:com.PatientMessageTestcase.MessageHelp@2a5ca609]" name="messages" duration-ms="12544" started-at="2020-11-09T19:25:42Z" finished-at="2020-11-09T19:25:55Z">
+        <test-method status="PASS" signature="rateus()[pri:0, instance:com.PatientRateusTestcases.RateUsTestcase5@2a5ca609]" name="rateus" duration-ms="16732" started-at="2020-11-12T16:54:31Z" finished-at="2020-11-12T16:54:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- messages -->
-        <test-method status="PASS" signature="Aftersuite()[pri:0, instance:com.PatientMessageTestcase.MessageHelp@2a5ca609]" name="Aftersuite" is-config="true" duration-ms="0" started-at="2020-11-09T19:25:55Z" finished-at="2020-11-09T19:25:55Z">
+        </test-method> <!-- rateus -->
+        <test-method status="PASS" signature="Aftersuite()[pri:0, instance:com.PatientRateusTestcases.RateUsTestcase5@2a5ca609]" name="Aftersuite" is-config="true" duration-ms="172" started-at="2020-11-12T16:54:48Z" finished-at="2020-11-12T16:54:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->
-      </class> <!-- com.PatientMessageTestcase.MessageHelp -->
+      </class> <!-- com.PatientRateusTestcases.RateUsTestcase5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
