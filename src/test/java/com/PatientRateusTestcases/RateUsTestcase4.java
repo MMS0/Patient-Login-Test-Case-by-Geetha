@@ -1,5 +1,6 @@
 package com.PatientRateusTestcases;
 
+import org.testng.annotations.Test;
 import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
 
@@ -23,5 +24,6 @@ public class RateUsTestcase4 extends patientLogin{
 		patient.ratings.click();
 		Thread.sleep(3000);
 		patient.ratings.click();
+		System.out.println("user able to select and deselect stars");
 }
 }

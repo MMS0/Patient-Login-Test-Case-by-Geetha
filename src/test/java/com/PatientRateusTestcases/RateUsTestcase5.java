@@ -1,5 +1,6 @@
 package com.PatientRateusTestcases;
 
+import org.testng.annotations.Test;
 import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
 
@@ -20,9 +21,10 @@ public class RateUsTestcase5 extends patientLogin{
 		Thread.sleep(3000);
 		patient.signOut.click();
 		Thread.sleep(5000);
-		patient.userExperience.isDisplayed();
-		patient.userInterface.isDisplayed();
-		patient.easyofuse.isDisplayed();
-		patient.featurevalue.isDisplayed();
+		if(patient.userExperience.isDisplayed()&&patient.userInterface.isDisplayed()&&patient.easyofuse.isDisplayed()&&patient.featurevalue.isDisplayed())
+		
+		{
+			System.out.println("user experience,easy of use, user interface, feature value are displaying");
+		}
 }
 }

@@ -32,6 +32,8 @@ public class RateUs {
 		public WebElement ratings;
 	 @FindBy(how = How.XPATH, using = "//b[contains(text(),'Thank You for Your valuable feedback')]")
 		public WebElement thanks;
+	 @FindBy(how = How.XPATH, using = "//body/div[@id='rate']/div[@id='rateusdiv']/div[@id='rateMod']/div[1]/div[6]/div[2]/input[1]")
+		public WebElement sign;
 	 @FindBy(how = How.XPATH, using = "//a[@href='https://www.facebook.com/75health']")
 		public WebElement facebook;
 	 @FindBy(how = How.XPATH, using = "//a[@href='https://www.instagram.com/75health/']")

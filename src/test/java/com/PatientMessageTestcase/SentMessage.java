@@ -1,5 +1,6 @@
 package com.PatientMessageTestcase;
 
+import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.support.PageFactory;

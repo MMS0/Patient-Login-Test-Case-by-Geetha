@@ -3,6 +3,7 @@ package com.patientLoginTestCases;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.patientLogin.Settings_manageYourAccount;
 import com.patientLogin.patientLogin;

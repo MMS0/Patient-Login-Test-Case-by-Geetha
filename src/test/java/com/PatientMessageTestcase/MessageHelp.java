@@ -1,5 +1,6 @@
 package com.PatientMessageTestcase;
 
+import org.testng.annotations.Test;
 import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
 

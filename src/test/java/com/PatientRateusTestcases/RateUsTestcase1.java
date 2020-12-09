@@ -1,5 +1,6 @@
 package com.PatientRateusTestcases;
 
+import org.testng.annotations.Test;
 import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
 
@@ -27,6 +28,10 @@ public class RateUsTestcase1 extends patientLogin {
 				{
 			System.out.println("we are in rate us page");
 				}
+		else
+		{
+			System.out.println("Not navigating to rate us page");
+		}
 }
 }
 

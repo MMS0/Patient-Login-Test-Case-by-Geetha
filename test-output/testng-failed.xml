@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.PatientRateusTestcases.RateUsTestcase">
+      <class name="com.PatientRateusTestcases.RateusTestcases19">
         <methods>
-          <include name="listEhr"/>
           <include name="login1"/>
+          <include name="rateus"/>
           <include name="Aftersuite"/>
         </methods>
-      </class> <!-- com.PatientRateusTestcases.RateUsTestcase -->
+      </class> <!-- com.PatientRateusTestcases.RateusTestcases19 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

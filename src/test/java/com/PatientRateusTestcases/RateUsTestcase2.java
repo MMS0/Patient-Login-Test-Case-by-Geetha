@@ -1,5 +1,6 @@
 package com.PatientRateusTestcases;
 
+import org.testng.annotations.Test;
 import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
 
@@ -20,11 +21,23 @@ public class RateUsTestcase2 extends patientLogin{
 		Thread.sleep(3000);
 		patient.signOut.click();
 		Thread.sleep(3000);
-		patient.WhatDidYouLikeTheBest.isDisplayed();
-		patient.HowWasexperience.isDisplayed();
-		patient.HowWasexperience.isDisplayed();
-		patient.submit.isDisplayed();
-		patient.ratings.isDisplayed();
-		System.out.println("all displayed");
+		if(patient.WhatDidYouLikeTheBest.isDisplayed())
+		{
+			System.out.println("What Did You Like The Best is displaying in rate us page ");
+		}
+		
+		if(patient.HowWasexperience.isDisplayed())
+		{
+			System.out.println("How Was experience  is displaying in rate us page ");
+		}
+		
+		if(patient.submit.isDisplayed())
+		{
+			System.out.println("submit button is displaying in rate us page ");
+		}
+		if(patient.ratings.isDisplayed())
+		{
+		System.out.println("Rating is displaying in rate us page");
+		}
 }
 }
