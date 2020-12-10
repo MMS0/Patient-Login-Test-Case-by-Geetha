@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.PatientRateusTestcases.RateusTestcases19">
+      <class name="com.settingsTestcase.SettingTestcase13">
         <methods>
           <include name="login1"/>
-          <include name="rateus"/>
-          <include name="Aftersuite"/>
+          <include name="set"/>
         </methods>
-      </class> <!-- com.PatientRateusTestcases.RateusTestcases19 -->
+      </class> <!-- com.settingsTestcase.SettingTestcase13 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
